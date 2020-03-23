@@ -1,0 +1,65 @@
+body {
+  font-size: 30px;
+}
+
+.container, .container-flex {
+  padding: 3rem;
+}
+
+.container-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.error {
+  color: red;
+  margin-left: 10px;
+}
+
+.arrow {
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.like-count {
+  display: inline;
+  margin-left: 37px;
+}
+
+.like-button {
+  background-color: green;
+  width: 106px;
+  height: 49px;
+  font-size: 20px;
+  border: solid black;
+}
+
+.adopt-button {
+  display: inline-block;
+  width: 105px;
+  height: 51px;
+  font-size: 17px;
+  background-color: red;
+  border: solid black;
+}
+
+.single-dog-header {
+  display: inline-block;
+}
+
+.adopt-div {
+  display: inline-block;
+  margin-left: 300px;
+}
+
+.single-dog-details {
+  border: solid;
+}
